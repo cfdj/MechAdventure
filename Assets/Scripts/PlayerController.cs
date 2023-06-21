@@ -11,6 +11,9 @@ public class PlayerController : MonoBehaviour
 
     public Camera mainCamera;
 
+    public Animator animator;
+    public SpriteRenderer sprite;
+
     private Vector2 additionalSpeed = new Vector2(0,0);
     // Start is called before the first frame update
     void OnEnable()
@@ -31,6 +34,22 @@ public class PlayerController : MonoBehaviour
             rb.velocity = new Vector2(speed * Input.GetAxis("Horizontal"), speed * Input.GetAxis("Vertical"))+additionalSpeed;
             rb.velocity = Vector2.ClampMagnitude(rb.velocity, speed);
             additionalSpeed = Vector2.zero;
+            if(Input.GetAxis("Horizontal") == 0 && Input.GetAxis("Vertical") == 0)
+            {
+                animator.speed = 0;
+            }
+            else
+            {
+                animator.speed = 1;
+            }
+            if(Input.GetAxis("Horizontal") < 0)
+            {
+                sprite.flipX = false;
+            }
+            else if(Input.GetAxis("Horizontal")>0)
+            {
+                sprite.flipX = true;
+            }
         }
     }
 

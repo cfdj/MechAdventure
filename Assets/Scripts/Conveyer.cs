@@ -11,7 +11,13 @@ public class Conveyer : MonoBehaviour
     {
         
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.GetComponent<PlayerController>() == null){
+            collision.attachedRigidbody.AddForce(ConveyerSpeed*2);
+        }
 
+    }
     private void OnTriggerStay2D(Collider2D collision)
     {
         Debug.Log("On Conveyer");

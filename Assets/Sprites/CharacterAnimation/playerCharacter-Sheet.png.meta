@@ -1,24 +1,12 @@
 fileFormatVersion: 2
-guid: a45183787d6a78d4e941609451d5722d
+guid: 258b9dbfa5df9934b96db95e690ac444
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 4983153970968490810
-    second: ConveyorEast_0
-  - first:
-      213: 1488974148405070721
-    second: ConveyorEast_1
-  - first:
-      213: -4292803412491515630
-    second: ConveyorEast_2
-  - first:
-      213: 788031284134534327
-    second: ConveyorEast_3
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -49,8 +37,8 @@ TextureImporter:
     filterMode: 0
     aniso: 2
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
+    wrapU: 0
+    wrapV: 0
     wrapW: 0
   nPOTScale: 0
   lightmap: 0
@@ -64,7 +52,7 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
@@ -77,7 +65,7 @@ TextureImporter:
   ignorePngGamma: 0
   applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -94,9 +82,9 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 8192
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -140,23 +128,11 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 8192
-    resizeAlgorithm: 1
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 8192
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -167,13 +143,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ConveyorEast_0
+      name: playerCharacter-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +157,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3377ac7228b72540800000000000000
-      internalID: 4983153970968490810
+      spriteID: d08f83dbb1fad04438663ad4f4002188
+      internalID: 1425176506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ConveyorEast_1
+      name: playerCharacter-Sheet_1
       rect:
         serializedVersion: 2
-        x: 37
+        x: 16
         y: 0
-        width: 32
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18b8c6b5916e9a410800000000000000
-      internalID: 1488974148405070721
+      spriteID: 1a8ff8491aca7514482a340521340f0e
+      internalID: -1554228950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ConveyorEast_2
+      name: playerCharacter-Sheet_2
       rect:
         serializedVersion: 2
-        x: 74
+        x: 32
         y: 0
-        width: 32
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 219cbd36a06ec64c0800000000000000
-      internalID: -4292803412491515630
+      spriteID: a87f234d8285b604a8aca69278f95a82
+      internalID: 1885576975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ConveyorEast_3
+      name: playerCharacter-Sheet_3
       rect:
         serializedVersion: 2
-        x: 111
+        x: 48
         y: 0
-        width: 32
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,8 +220,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bcdbba1746afea00800000000000000
-      internalID: 788031284134534327
+      spriteID: e6546f0e1b1ac1749bcba61d1b452a0a
+      internalID: -1748757909
       vertices: []
       indices: 
       edges: []
@@ -253,7 +229,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 49788c24bd2b9ed449e0e71ade49b76c
+    spriteID: 43a5e64a3544c254b8ca4de5633c7068
     internalID: 0
     vertices: []
     indices: 
@@ -261,10 +237,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ConveyorEast_2: -4292803412491515630
-      ConveyorEast_3: 788031284134534327
-      ConveyorEast_0: 4983153970968490810
-      ConveyorEast_1: 1488974148405070721
+      playerCharacter-Sheet_1: -1554228950
+      playerCharacter-Sheet_3: -1748757909
+      playerCharacter-Sheet_0: 1425176506
+      playerCharacter-Sheet_2: 1885576975
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

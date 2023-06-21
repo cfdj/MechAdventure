@@ -99,7 +99,7 @@ TextureImporter:
       213: -696142195922804379
     second: CityTileSet_31
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -116,10 +116,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -158,6 +160,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -221,6 +225,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 1024
     resizeAlgorithm: 1
     textureFormat: -1
@@ -970,9 +986,41 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      CityTileSet_23: 3210978357816064823
+      CityTileSet_12: -9080302705922851780
+      CityTileSet_27: 2826329969154663368
+      CityTileSet_5: 3455381332093660477
+      CityTileSet_17: 1221839887972008913
+      CityTileSet_6: 3961659114790540795
+      CityTileSet_20: -5447953961200285106
+      CityTileSet_31: -696142195922804379
+      CityTileSet_28: -5801311393752396855
+      CityTileSet_25: 9112344972536266323
+      CityTileSet_4: 3106323147189619943
+      CityTileSet_7: -308554390254451477
+      CityTileSet_18: -655743574385717731
+      CityTileSet_22: 6224990815882095573
+      CityTileSet_21: -3230590801510617969
+      CityTileSet_3: 2267450292809324314
+      CityTileSet_0: -8599712357992915809
+      CityTileSet_19: -4459141456132402147
+      CityTileSet_13: -514526066513394839
+      CityTileSet_9: 8830079566571788552
+      CityTileSet_24: -4053844902351012257
+      CityTileSet_8: 4347696094386879819
+      CityTileSet_2: 5139067641385516579
+      CityTileSet_29: 2290204966774814290
+      CityTileSet_10: -8318631443624551352
+      CityTileSet_1: 2837517448622181439
+      CityTileSet_15: 4627177743322685471
+      CityTileSet_16: -4774089053460360290
+      CityTileSet_26: -7775044235068359678
+      CityTileSet_30: 3738809406965097103
+      CityTileSet_14: 5811982165564613442
+      CityTileSet_11: -2328828233712500533
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
